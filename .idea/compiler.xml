@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="alicom-dysms-api" />
+        <module name="alicom-mns-receive-samples" />
+        <module name="aliyun-java-sdk-core" />
+        <module name="aliyun-java-sdk-dysmsapi" />
+        <module name="casclient_demo1" />
+        <module name="casclient_demo2" />
+        <module name="casclient_demo3" />
+        <module name="itcast_sms_server" />
+        <module name="pingyougou_sellergoods_interface" />
+        <module name="pinyougou_cart_interface" />
+        <module name="pinyougou_cart_service" />
+        <module name="pinyougou_cart_web" />
+        <module name="pinyougou_common" />
+        <module name="pinyougou_content_interface" />
+        <module name="pinyougou_content_service" />
+        <module name="pinyougou_dao" />
+        <module name="pinyougou_manager_web" />
+        <module name="pinyougou_page_interface" />
+        <module name="pinyougou_page_service" />
+        <module name="pinyougou_page_web" />
+        <module name="pinyougou_pojo" />
+        <module name="pinyougou_portal_web" />
+        <module name="pinyougou_search_interface" />
+        <module name="pinyougou_search_service" />
+        <module name="pinyougou_search_web" />
+        <module name="pinyougou_sellergoods_service" />
+        <module name="pinyougou_shop_web" />
+        <module name="pinyougou_solr_util" />
+        <module name="pinyougou_user_interface" />
+        <module name="pinyougou_user_service" />
+        <module name="pinyougou_user_web" />
+        <module name="pinyougou_utils" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="pingyougou_service" target="1.8" />
+      <module name="pinyougou_web" target="1.8" />
+      <module name="pinyougouservice" target="1.8" />
+      <module name="pinyougouuserinterface" target="1.8" />
+      <module name="pungyougoudao" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="itcast_sms_server" options="-parameters" />
+    </option>
+  </component>
+</project>

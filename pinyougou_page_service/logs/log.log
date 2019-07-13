@@ -1,0 +1,64 @@
+2019-07-09 08:46:21  [ org.springframework.jms.listener.DefaultMessageListenerContainer#0-1:0 ] - [ DEBUG ]  Couldn't find template in cache for "item.ftl"("zh_CN", UTF-8, parsed); will try to load it.
+2019-07-09 08:46:21  [ org.springframework.jms.listener.DefaultMessageListenerContainer#0-1:0 ] - [ DEBUG ]  Couldn't find template in cache for "item.ftl"("zh_CN", UTF-8, parsed); will try to load it.
+2019-07-09 08:46:21  [ org.springframework.jms.listener.DefaultMessageListenerContainer#0-1:27 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("item_zh_CN.ftl"): Not found
+2019-07-09 08:46:21  [ org.springframework.jms.listener.DefaultMessageListenerContainer#0-1:27 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("item_zh_CN.ftl"): Not found
+2019-07-09 08:46:21  [ org.springframework.jms.listener.DefaultMessageListenerContainer#0-1:30 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("item_zh.ftl"): Not found
+2019-07-09 08:46:21  [ org.springframework.jms.listener.DefaultMessageListenerContainer#0-1:30 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("item_zh.ftl"): Not found
+2019-07-09 08:46:21  [ org.springframework.jms.listener.DefaultMessageListenerContainer#0-1:33 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("item.ftl"): Found
+2019-07-09 08:46:21  [ org.springframework.jms.listener.DefaultMessageListenerContainer#0-1:33 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("item.ftl"): Found
+2019-07-09 08:46:21  [ org.springframework.jms.listener.DefaultMessageListenerContainer#0-1:34 ] - [ DEBUG ]  Loading template for "item.ftl"("zh_CN", UTF-8, parsed) from "C:\\Users\\ип\\pinyougouparent\\pinyougou_page_service\\src\\main\\webapp\\WEB-INF\\ftl\\item.ftl"
+2019-07-09 08:46:21  [ org.springframework.jms.listener.DefaultMessageListenerContainer#0-1:34 ] - [ DEBUG ]  Loading template for "item.ftl"("zh_CN", UTF-8, parsed) from "C:\\Users\\ип\\pinyougouparent\\pinyougou_page_service\\src\\main\\webapp\\WEB-INF\\ftl\\item.ftl"
+2019-07-09 08:46:21  [ org.springframework.jms.listener.DefaultMessageListenerContainer#0-1:408 ] - [ INFO ]  {dataSource-1} inited
+2019-07-09 08:46:21  [ org.springframework.jms.listener.DefaultMessageListenerContainer#0-1:408 ] - [ INFO ]  {dataSource-1} inited
+2019-07-09 08:46:21  [ org.springframework.jms.listener.DefaultMessageListenerContainer#0-1:840 ] - [ DEBUG ]  Couldn't find template in cache for "head.ftl"("zh_CN", UTF-8, parsed); will try to load it.
+2019-07-09 08:46:21  [ org.springframework.jms.listener.DefaultMessageListenerContainer#0-1:840 ] - [ DEBUG ]  Couldn't find template in cache for "head.ftl"("zh_CN", UTF-8, parsed); will try to load it.
+2019-07-09 08:46:21  [ org.springframework.jms.listener.DefaultMessageListenerContainer#0-1:841 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("head_zh_CN.ftl"): Not found
+2019-07-09 08:46:21  [ org.springframework.jms.listener.DefaultMessageListenerContainer#0-1:841 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("head_zh_CN.ftl"): Not found
+2019-07-09 08:46:21  [ org.springframework.jms.listener.DefaultMessageListenerContainer#0-1:842 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("head_zh.ftl"): Not found
+2019-07-09 08:46:21  [ org.springframework.jms.listener.DefaultMessageListenerContainer#0-1:842 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("head_zh.ftl"): Not found
+2019-07-09 08:46:21  [ org.springframework.jms.listener.DefaultMessageListenerContainer#0-1:842 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("head.ftl"): Found
+2019-07-09 08:46:21  [ org.springframework.jms.listener.DefaultMessageListenerContainer#0-1:842 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("head.ftl"): Found
+2019-07-09 08:46:21  [ org.springframework.jms.listener.DefaultMessageListenerContainer#0-1:843 ] - [ DEBUG ]  Loading template for "head.ftl"("zh_CN", UTF-8, parsed) from "C:\\Users\\ип\\pinyougouparent\\pinyougou_page_service\\src\\main\\webapp\\WEB-INF\\ftl\\head.ftl"
+2019-07-09 08:46:21  [ org.springframework.jms.listener.DefaultMessageListenerContainer#0-1:843 ] - [ DEBUG ]  Loading template for "head.ftl"("zh_CN", UTF-8, parsed) from "C:\\Users\\ип\\pinyougouparent\\pinyougou_page_service\\src\\main\\webapp\\WEB-INF\\ftl\\head.ftl"
+2019-07-09 08:46:21  [ org.springframework.jms.listener.DefaultMessageListenerContainer#0-1:857 ] - [ DEBUG ]  Couldn't find template in cache for "foot.ftl"("zh_CN", UTF-8, parsed); will try to load it.
+2019-07-09 08:46:21  [ org.springframework.jms.listener.DefaultMessageListenerContainer#0-1:857 ] - [ DEBUG ]  Couldn't find template in cache for "foot.ftl"("zh_CN", UTF-8, parsed); will try to load it.
+2019-07-09 08:46:21  [ org.springframework.jms.listener.DefaultMessageListenerContainer#0-1:858 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("foot_zh_CN.ftl"): Not found
+2019-07-09 08:46:21  [ org.springframework.jms.listener.DefaultMessageListenerContainer#0-1:858 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("foot_zh_CN.ftl"): Not found
+2019-07-09 08:46:21  [ org.springframework.jms.listener.DefaultMessageListenerContainer#0-1:859 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("foot_zh.ftl"): Not found
+2019-07-09 08:46:21  [ org.springframework.jms.listener.DefaultMessageListenerContainer#0-1:859 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("foot_zh.ftl"): Not found
+2019-07-09 08:46:21  [ org.springframework.jms.listener.DefaultMessageListenerContainer#0-1:859 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("foot.ftl"): Found
+2019-07-09 08:46:21  [ org.springframework.jms.listener.DefaultMessageListenerContainer#0-1:859 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("foot.ftl"): Found
+2019-07-09 08:46:21  [ org.springframework.jms.listener.DefaultMessageListenerContainer#0-1:859 ] - [ DEBUG ]  Loading template for "foot.ftl"("zh_CN", UTF-8, parsed) from "C:\\Users\\ип\\pinyougouparent\\pinyougou_page_service\\src\\main\\webapp\\WEB-INF\\ftl\\foot.ftl"
+2019-07-09 08:46:21  [ org.springframework.jms.listener.DefaultMessageListenerContainer#0-1:859 ] - [ DEBUG ]  Loading template for "foot.ftl"("zh_CN", UTF-8, parsed) from "C:\\Users\\ип\\pinyougouparent\\pinyougou_page_service\\src\\main\\webapp\\WEB-INF\\ftl\\foot.ftl"
+2019-07-13 09:47:17  [ org.springframework.jms.listener.DefaultMessageListenerContainer#0-1:0 ] - [ DEBUG ]  Couldn't find template in cache for "item.ftl"("zh_CN", UTF-8, parsed); will try to load it.
+2019-07-13 09:47:17  [ org.springframework.jms.listener.DefaultMessageListenerContainer#0-1:0 ] - [ DEBUG ]  Couldn't find template in cache for "item.ftl"("zh_CN", UTF-8, parsed); will try to load it.
+2019-07-13 09:47:17  [ org.springframework.jms.listener.DefaultMessageListenerContainer#0-1:14 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("item_zh_CN.ftl"): Not found
+2019-07-13 09:47:17  [ org.springframework.jms.listener.DefaultMessageListenerContainer#0-1:14 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("item_zh_CN.ftl"): Not found
+2019-07-13 09:47:17  [ org.springframework.jms.listener.DefaultMessageListenerContainer#0-1:17 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("item_zh.ftl"): Not found
+2019-07-13 09:47:17  [ org.springframework.jms.listener.DefaultMessageListenerContainer#0-1:17 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("item_zh.ftl"): Not found
+2019-07-13 09:47:17  [ org.springframework.jms.listener.DefaultMessageListenerContainer#0-1:20 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("item.ftl"): Found
+2019-07-13 09:47:17  [ org.springframework.jms.listener.DefaultMessageListenerContainer#0-1:20 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("item.ftl"): Found
+2019-07-13 09:47:17  [ org.springframework.jms.listener.DefaultMessageListenerContainer#0-1:21 ] - [ DEBUG ]  Loading template for "item.ftl"("zh_CN", UTF-8, parsed) from "C:\\Users\\ип\\pinyougouparent\\pinyougou_page_service\\src\\main\\webapp\\WEB-INF\\ftl\\item.ftl"
+2019-07-13 09:47:17  [ org.springframework.jms.listener.DefaultMessageListenerContainer#0-1:21 ] - [ DEBUG ]  Loading template for "item.ftl"("zh_CN", UTF-8, parsed) from "C:\\Users\\ип\\pinyougouparent\\pinyougou_page_service\\src\\main\\webapp\\WEB-INF\\ftl\\item.ftl"
+2019-07-13 09:47:18  [ org.springframework.jms.listener.DefaultMessageListenerContainer#0-1:820 ] - [ INFO ]  {dataSource-1} inited
+2019-07-13 09:47:18  [ org.springframework.jms.listener.DefaultMessageListenerContainer#0-1:820 ] - [ INFO ]  {dataSource-1} inited
+2019-07-13 09:47:18  [ org.springframework.jms.listener.DefaultMessageListenerContainer#0-1:1302 ] - [ DEBUG ]  Couldn't find template in cache for "head.ftl"("zh_CN", UTF-8, parsed); will try to load it.
+2019-07-13 09:47:18  [ org.springframework.jms.listener.DefaultMessageListenerContainer#0-1:1302 ] - [ DEBUG ]  Couldn't find template in cache for "head.ftl"("zh_CN", UTF-8, parsed); will try to load it.
+2019-07-13 09:47:18  [ org.springframework.jms.listener.DefaultMessageListenerContainer#0-1:1303 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("head_zh_CN.ftl"): Not found
+2019-07-13 09:47:18  [ org.springframework.jms.listener.DefaultMessageListenerContainer#0-1:1303 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("head_zh_CN.ftl"): Not found
+2019-07-13 09:47:18  [ org.springframework.jms.listener.DefaultMessageListenerContainer#0-1:1304 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("head_zh.ftl"): Not found
+2019-07-13 09:47:18  [ org.springframework.jms.listener.DefaultMessageListenerContainer#0-1:1304 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("head_zh.ftl"): Not found
+2019-07-13 09:47:18  [ org.springframework.jms.listener.DefaultMessageListenerContainer#0-1:1304 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("head.ftl"): Found
+2019-07-13 09:47:18  [ org.springframework.jms.listener.DefaultMessageListenerContainer#0-1:1304 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("head.ftl"): Found
+2019-07-13 09:47:18  [ org.springframework.jms.listener.DefaultMessageListenerContainer#0-1:1305 ] - [ DEBUG ]  Loading template for "head.ftl"("zh_CN", UTF-8, parsed) from "C:\\Users\\ип\\pinyougouparent\\pinyougou_page_service\\src\\main\\webapp\\WEB-INF\\ftl\\head.ftl"
+2019-07-13 09:47:18  [ org.springframework.jms.listener.DefaultMessageListenerContainer#0-1:1305 ] - [ DEBUG ]  Loading template for "head.ftl"("zh_CN", UTF-8, parsed) from "C:\\Users\\ип\\pinyougouparent\\pinyougou_page_service\\src\\main\\webapp\\WEB-INF\\ftl\\head.ftl"
+2019-07-13 09:47:18  [ org.springframework.jms.listener.DefaultMessageListenerContainer#0-1:1322 ] - [ DEBUG ]  Couldn't find template in cache for "foot.ftl"("zh_CN", UTF-8, parsed); will try to load it.
+2019-07-13 09:47:18  [ org.springframework.jms.listener.DefaultMessageListenerContainer#0-1:1322 ] - [ DEBUG ]  Couldn't find template in cache for "foot.ftl"("zh_CN", UTF-8, parsed); will try to load it.
+2019-07-13 09:47:18  [ org.springframework.jms.listener.DefaultMessageListenerContainer#0-1:1323 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("foot_zh_CN.ftl"): Not found
+2019-07-13 09:47:18  [ org.springframework.jms.listener.DefaultMessageListenerContainer#0-1:1323 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("foot_zh_CN.ftl"): Not found
+2019-07-13 09:47:18  [ org.springframework.jms.listener.DefaultMessageListenerContainer#0-1:1324 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("foot_zh.ftl"): Not found
+2019-07-13 09:47:18  [ org.springframework.jms.listener.DefaultMessageListenerContainer#0-1:1324 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("foot_zh.ftl"): Not found
+2019-07-13 09:47:18  [ org.springframework.jms.listener.DefaultMessageListenerContainer#0-1:1325 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("foot.ftl"): Found
+2019-07-13 09:47:18  [ org.springframework.jms.listener.DefaultMessageListenerContainer#0-1:1325 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("foot.ftl"): Found
+2019-07-13 09:47:18  [ org.springframework.jms.listener.DefaultMessageListenerContainer#0-1:1325 ] - [ DEBUG ]  Loading template for "foot.ftl"("zh_CN", UTF-8, parsed) from "C:\\Users\\ип\\pinyougouparent\\pinyougou_page_service\\src\\main\\webapp\\WEB-INF\\ftl\\foot.ftl"
+2019-07-13 09:47:18  [ org.springframework.jms.listener.DefaultMessageListenerContainer#0-1:1325 ] - [ DEBUG ]  Loading template for "foot.ftl"("zh_CN", UTF-8, parsed) from "C:\\Users\\ип\\pinyougouparent\\pinyougou_page_service\\src\\main\\webapp\\WEB-INF\\ftl\\foot.ftl"

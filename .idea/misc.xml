@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/../IdeaProjects/casclient_demo1" />
+    <file type="web" url="file://$PROJECT_DIR$/../IdeaProjects/casclient_demo2" />
+    <file type="web" url="file://$PROJECT_DIR$/../IdeaProjects/casclient_demo3" />
+    <file type="web" url="file://$PROJECT_DIR$/pinyougou_cart_service" />
+    <file type="web" url="file://$PROJECT_DIR$/pinyougou_cart_web" />
+    <file type="web" url="file://$PROJECT_DIR$/pinyougou_content_service" />
+    <file type="web" url="file://$PROJECT_DIR$/pinyougou_manager_web" />
+    <file type="web" url="file://$PROJECT_DIR$/pinyougou_page_service" />
+    <file type="web" url="file://$PROJECT_DIR$/pinyougou_page_web" />
+    <file type="web" url="file://$PROJECT_DIR$/pinyougou_portal_web" />
+    <file type="web" url="file://$PROJECT_DIR$/pinyougou_search_service" />
+    <file type="web" url="file://$PROJECT_DIR$/pinyougou_search_web" />
+    <file type="web" url="file://$PROJECT_DIR$/pinyougou_sellergoods_service" />
+    <file type="web" url="file://$PROJECT_DIR$/pinyougou_shop_web" />
+    <file type="web" url="file://$PROJECT_DIR$/pinyougou_user_service" />
+    <file type="web" url="file://$PROJECT_DIR$/pinyougou_user_web" />
+    <file type="web" url="file://$PROJECT_DIR$/pinyougou_web" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/pinyougou_search_web/pom.xml" />
+        <option value="$PROJECT_DIR$/pinyougou_manager_web/pom.xml" />
+        <option value="E:/资料/day11~day23/pyg/配套软件/配套软件/阿里大于/dysmsapi_demo_sdk__java/java/api_demo/alicom-dysms-api/pom.xml" />
+        <option value="E:/资料/day11~day23/pyg/配套软件/配套软件/阿里大于/dysmsapi_demo_sdk__java/java/msg_demo/alicom-mns-receive-samples/pom.xml" />
+        <option value="E:/资料/day11~day23/pyg/配套软件/配套软件/阿里大于/dysmsapi_demo_sdk__java/java/api_sdk/aliyun-java-sdk-core/pom.xml" />
+        <option value="E:/资料/day11~day23/pyg/配套软件/配套软件/阿里大于/dysmsapi_demo_sdk__java/java/api_sdk/aliyun-java-sdk-dysmsapi/pom.xml" />
+        <option value="E:/资料/day11~day23/pyg/配套软件/配套软件/阿里大于/dysmsapi_demo_sdk__java/java/itcast_sms_server/pom.xml" />
+        <option value="$PROJECT_DIR$/../itcast_sms_server/pom.xml" />
+        <option value="$PROJECT_DIR$/../IdeaProjects/casclient_demo1/pom.xml" />
+        <option value="$PROJECT_DIR$/../IdeaProjects/casclient_demo2/pom.xml" />
+        <option value="$PROJECT_DIR$/../IdeaProjects/casclient_demo3/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

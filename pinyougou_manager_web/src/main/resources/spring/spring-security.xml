@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:security="http://www.springframework.org/schema/security"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+          http://www.springframework.org/schema/beans/spring-beans.xsd
+          http://www.springframework.org/schema/security
+          http://www.springframework.org/schema/security/spring-security.xsd">        
+          
+	
+	<!--访问以下资源不需要权限-->
+	<security:http security="none" pattern="/*.html" />
+	<security:http security="none" pattern="/css/**" />
+	<security:http security="none" pattern="/img/**" />
+	<security:http security="none" pattern="/plugins/**" />
+	<security:http security="none" pattern="/js/**" />
+
+	<security:http auto-config="true" use-expressions="false" >
+
+		<security:intercept-url pattern="/**" access="ROLE_ADMIN" />
+
+		<!--
+			登录页面login.jsp
+			login-processing-url 验证的url
+			username-parameter 客户端提交的用户名的参数名
+			password-parameter 客户端提交的密码的参数名
+			 authentication-failure-url ：认证失败后跳转到failer.jsp
+		-->
+		<security:form-login login-page="/login.html"
+								login-processing-url="/login.do"
+							 	username-parameter="username"
+								password-parameter="password"
+							 authentication-failure-url="/login.html"
+							 default-target-url="/admin/index.html"
+							 always-use-default-target="true"
+			/>
+
+		<security:headers>
+			<security:frame-options policy="SAMEORIGIN"></security:frame-options>
+		</security:headers>
+		<!-- 关闭CSRF,默认是开启的 -->
+		<security:csrf disabled="true" />
+
+		<security:logout logout-url="/logout" logout-success-url="/login.html" invalidate-session="true"></security:logout>
+	</security:http>
+	<security:authentication-manager>
+		<security:authentication-provider>
+			<security:user-service>
+				<security:user name="user" password="user"
+					authorities="ROLE_USER" />
+				<security:user name="admin" password="admin"
+					authorities="ROLE_ADMIN" />
+			</security:user-service>
+		</security:authentication-provider>
+	</security:authentication-manager>
+</beans>
