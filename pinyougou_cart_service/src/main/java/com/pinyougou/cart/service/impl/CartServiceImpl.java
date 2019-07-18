@@ -7,6 +7,7 @@ import com.pinyougou.pojo.TbItem;
 import com.pinyougou.pojo.TbOrderItem;
 import com.pinyougou.pojogroup.Cart;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.redis.core.RedisTemplate;
 
 import java.math.BigDecimal;
 import java.util.ArrayList;
@@ -68,7 +69,7 @@ public class CartServiceImpl implements CartService {
             }else {
                 //5.2. 如果有，在原购物车明细上添加数量，更改金额
                 orderItem.setNum(orderItem.getNum()+num);
-                orderItem.setTotalFee(new BigDecimal(orderItem.getPrice().doubleValue()*num));
+                orderItem.setTotalFee(new BigDecimal(orderItem.getPrice().doubleValue()*orderItem.getNum()));
                 //如果数量操作后小于等于0，则移除
                if (orderItem.getNum()<=0){
                    cart.getOrderItemList().remove(orderItem);//移除购物车明细
@@ -82,6 +83,51 @@ public class CartServiceImpl implements CartService {
         }
         return cartList;
     }
+
+    @Autowired
+    private RedisTemplate redisTemplate;
+    /**
+     * 从redis中查询购物车
+     * @param username
+     * @return
+     */
+    @Override
+    public List<Cart> findCartListFromRedis(String username) {
+        System.out.println("从redis中提取购物车数据....."+username);
+        List<Cart> cartList = (List<Cart>) redisTemplate.boundHashOps("cartList").get(username);
+        if(cartList==null){
+            cartList=new ArrayList();
+        }
+        return cartList;
+
+    }
+    /**
+     * 将购物车保存到redis
+     * @param username
+     * @param cartList
+     */
+    @Override
+    public void saveCartListToRedis(String username, List<Cart> cartList) {
+        System.out.println("向redis存入购物车数据....."+username);
+        redisTemplate.boundHashOps("cartList").put(username, cartList);
+    }
+    /**
+     * 合并购物车
+     * @param cartList1
+     * @param cartList2
+     * @return
+     */
+    @Override
+    public List<Cart> mergeCartList(List<Cart> cartList1, List<Cart> cartList2) {
+        System.out.println("合并购物车");
+        for (Cart cart : cartList2) {
+            for (TbOrderItem orderItem : cart.getOrderItemList()) {
+                cartList1= addGoodsToCartList(cartList1,orderItem.getItemId(),orderItem.getNum());
+            }
+        }
+        return cartList1;
+    }
+
     /**
      * 根据商品明细ID查询
      * @param orderItemList

@@ -10,13 +10,18 @@
     <file url="file://$PROJECT_DIR$/pinyougou_content_service" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/pinyougou_manager_web" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/pinyougou_manager_web/logs/log.log" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/pinyougou_order_service" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/pinyougou_page_service" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/pinyougou_page_web" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pinyougou_pay_service" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/pinyougou_portal_web" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/pinyougou_search_service" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/pinyougou_search_web" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pinyougou_seckill_service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pinyougou_seckill_web" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/pinyougou_sellergoods_service" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/pinyougou_shop_web" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pinyougou_task_service" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/pinyougou_user_service" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/pinyougou_user_web" charset="UTF-8" />
     <file url="file://E:/资料/day11~day23/pyg/配套软件/配套软件/阿里大于/dysmsapi_demo_sdk__java/java/msg_demo/alicom-mns-receive-samples" charset="UTF-8" />
